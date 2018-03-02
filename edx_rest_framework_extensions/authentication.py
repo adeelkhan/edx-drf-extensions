@@ -8,7 +8,7 @@ from rest_framework import exceptions
 from rest_framework.authentication import get_authorization_header, BaseAuthentication
 from rest_framework_jwt.authentication import JSONWebTokenAuthentication
 
-from edx_rest_framework_extensions.exceptions import UserInfoRetrievalFailed
+from edx_rest_framework_extensions.exceptions_test import UserInfoRetrievalFailed
 from edx_rest_framework_extensions.settings import get_setting
 
 logger = logging.getLogger(__name__)
