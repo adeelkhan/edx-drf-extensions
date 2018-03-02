@@ -11,7 +11,7 @@ setup(
     description='edX extensions of Django REST Framework',
     author='edX',
     author_email='oscm@edx.org',
-    url='https://github.com/edx/edx-drf-extensions-test',
+    url='https://github.com/adeelkhan/edx-drf-extensions.git',
     license='AGPL',
     classifiers=[
         'Development Status :: 5 - Production/Stable',
