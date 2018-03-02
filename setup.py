@@ -6,7 +6,7 @@ from setuptools import setup
 import edx_rest_framework_extensions
 
 setup(
-    name='edx-drf-extensions',
+    name='edx-drf-extensions-test',
     version=edx_rest_framework_extensions.__version__,
     description='edX extensions of Django REST Framework',
     author='edX',
