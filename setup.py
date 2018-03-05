@@ -29,7 +29,7 @@ setup(
         'Framework :: Django :: 1.10',
         'Framework :: Django :: 1.11',
     ],
-    packages=['edx_rest_framework_extensions', find_packages()],
+    packages=find_packages(),
     install_requires=[
         'django>=1.8.9,<2.0',
         'djangorestframework==3.6.3',
