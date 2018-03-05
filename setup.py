@@ -30,6 +30,7 @@ setup(
         'Framework :: Django :: 1.11',
     ],
     packages=find_packages(),
+    include_package_data=True,
     install_requires=[
         'django>=1.8.9,<2.0',
         'djangorestframework==3.6.3',
