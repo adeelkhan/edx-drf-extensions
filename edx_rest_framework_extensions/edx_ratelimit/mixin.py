@@ -2,7 +2,7 @@ from ratelimit import ALL
 from ratelimit.utils import is_ratelimited
 from django.http import JsonResponse
 import logging
-from edx_rest_framework_extensions.ratelimit.utils import get_whitelist_rate, get_ratelimit_conf
+from edx_rest_framework_extensions.edx_ratelimit.utils import get_whitelist_rate, get_ratelimit_conf
 
 class EdxRateLimitMixin(object):
 
@@ -10,7 +10,7 @@ class EdxRateLimitMixin(object):
     ip_whitelist = {}
 
     ratelimit_group = None
-    ratelimit_key = 'edx_rest_framework_extensions.ratelimit.utils.real_ip'
+    ratelimit_key = 'edx_rest_framework_extensions.edx_ratelimit.utils.real_ip'
     ratelimit_rate = '5/m'
     ratelimit_block = True
     ratelimit_methods = ALL

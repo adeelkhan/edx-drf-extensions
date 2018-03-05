@@ -55,7 +55,7 @@ class EdxRateLimitConfiguration(ConfigurationModel):
     ip_whitelist = JSONField(
         default={},
         blank=True,
-        help_text="""IP list with ratelimit configuration. Its a Json with IP->Rate mapping.
+        help_text="""IP list with edx_ratelimit configuration. Its a Json with IP->Rate mapping.
          eg
          {
           "127.0.0.102":"300/m",

@@ -3,7 +3,7 @@ from functools import wraps
 from django.http import HttpRequest, JsonResponse
 from ratelimit import ALL
 from ratelimit.utils import is_ratelimited
-from edx_rest_framework_extensions.ratelimit.utils import get_whitelist_rate, get_ratelimit_conf
+from edx_rest_framework_extensions.edx_ratelimit.utils import get_whitelist_rate, get_ratelimit_conf
 import logging
 
 __all__ = ['ratelimit']
