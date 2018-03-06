@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-
+from __future__ import unicode_literals
 from django.db import models
 from jsonfield.fields import JSONField
 from config_models.models import ConfigurationModel
