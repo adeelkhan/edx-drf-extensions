@@ -6,7 +6,7 @@ from setuptools import setup, find_packages
 import edx_rest_framework_extensions
 
 setup(
-    name='edx-drf-extensions-test',
+    name='edx-drf-extensions-with-ratelimit',
     version=edx_rest_framework_extensions.__version__,
     description='edX extensions of Django REST Framework',
     author='edX',
@@ -38,6 +38,9 @@ setup(
         'python-dateutil>=2.0',
         'requests>=2.7.0,<3.0.0',
         'six==1.11.0',
+        'django-ipware==1.1.0',
+        'django-config-models==0.1.8',
+        'django-ratelimit==1.1.0'
     ],
     dependency_links=[
         'git+https://github.com/edx/django-rest-framework.git@1ceda7c086fddffd1c440cc86856441bbf0bd9cb#egg=djangorestframework==3.6.3'

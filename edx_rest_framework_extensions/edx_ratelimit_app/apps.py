@@ -5,4 +5,4 @@ from django.apps import AppConfig
 
 
 class RatelimitAppConfig(AppConfig):
-    name = 'edx_ratelimit_django_app'
+    name = 'edx_ratelimit_app'
