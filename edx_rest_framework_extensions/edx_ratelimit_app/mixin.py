@@ -12,7 +12,7 @@ class EdxRateLimitMixin(object):
     ip_whitelist = {}
 
     ratelimit_group = None
-    ratelimit_key = 'edx_rest_framework_extensions.edx_ratelimit_app.utils.real_ip'
+    ratelimit_key = 'utils.real_ip'
     ratelimit_rate = '5/m'
     ratelimit_block = True
     ratelimit_methods = ALL
