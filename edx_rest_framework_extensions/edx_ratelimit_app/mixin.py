@@ -3,7 +3,7 @@ from __future__ import unicode_literals
 from django.http import JsonResponse
 from ratelimit import ALL
 from ratelimit.utils import is_ratelimited
-from edx_rest_framework_extensions.edx_ratelimit.utils import get_whitelist_rate, get_ratelimit_conf
+from .utils import get_whitelist_rate, get_ratelimit_conf
 
 import logging
 
