@@ -8,7 +8,7 @@ from config_models.models import ConfigurationModel
 class EdxRateLimitConfiguration(ConfigurationModel):
     SECONDS = '/sec'
     MINUTES = '/minute'
-    HOUR = '/hour',
+    HOUR = '/hour'
     DAY = '/day'
 
     RATE_TIME_WINDOW_CHOICES = (
